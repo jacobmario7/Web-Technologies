@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia</title>
+    <style>
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            table-layout: fixed;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        video{
+            width: 100%;
+            height: 300px;
+            object-fit:cover;    
+        }
+
+        iframe{
+            width:100%;
+            height: 300px; 
+        }
+
+        td {
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <table border="4" align="center">
+        <tr>
+            <th>OFFLINE</th>
+            <th>ONLINE</th>
+        </tr>
+        <tr>
+            <td>
+                <video width="auto" height="240" controls>
+                    <source src="frenzied - Made with Clipchamp.mp4" type="video/mp4">
+                </video>
+            </td>
+            <td>
+                <iframe src="https://www.youtube.com/embed/0gAbuLj7rsY?si=GDKJBDM8b3tdrw7X" width="auto" height="240" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <audio controls>
+                    <source src="aud.mp3" type="audio/mp3">
+                </audio>
+            </td>
+            <td>
+                <iframe src="https://open.spotify.com/embed/track/5FVd6KXrgO9B3JPmC8OPst?si=f8b91bf6090e479c" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
