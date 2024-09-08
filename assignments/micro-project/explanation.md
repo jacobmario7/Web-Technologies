@@ -1,3 +1,7 @@
+# Project is done by:
+#### Jacob Mario Leonard P - 311122104055
+#### Deepak N - 311122104029
+
 # Shadows:
 Box shadows are applied to certain elements like .card and .column to create a raised effect, making the elements appear lifted off the page. The shadow adds depth and improves the visual hierarchy.
 ### Here shadows are used in the div tag of class = ‘card’ which makes the page look like lifted off the page and makes it visually appealing 
