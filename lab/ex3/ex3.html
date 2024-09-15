@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KickZone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .navbar-brand {
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+
+        .carousel-item img {
+            height: 60vh;
+            width: 100%;
+            
+        }
+        
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            background-color:black; /* Custom color: Tomato */
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+
+        .card img {
+            height: 180px;
+            object-fit: cover;
+        }
+
+        footer {
+            background-color: #263159;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">KickZone</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#leagues">Top Leagues</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#players">Top Players</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="footballCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="car1.jpg" class="d-block w-100" alt="Football Image 1">
+            </div>
+            <div class="carousel-item">
+                <img src="car2.jpg" class="d-block w-100" alt="Football Image 2" style="object-fit: fill;">
+            </div>
+            <div class="carousel-item">
+                <img src="car3.jpg" class="d-block w-100" alt="Football Image 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#footballCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#footballCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container mt-5">
+        <h2 id="leagues" class="text-center mb-4">Top Leagues</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="pl.jpg" class="card-img-top" alt="Premier League">
+                    <div class="card-body">
+                        <h5 class="card-title">Premier League</h5>
+                        <p class="card-text">England's top-tier football league.</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="la.jpg" class="card-img-top" alt="La Liga">
+                    <div class="card-body">
+                        <h5 class="card-title">La Liga</h5>
+                        <p class="card-text">Spain's top football division.</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="bun.jpg" class="card-img-top" alt="Bundesliga">
+                    <div class="card-body">
+                        <h5 class="card-title">Bundesliga</h5>
+                        <p class="card-text">Germany's premier football league.</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5" style="margin-bottom: 20px;">    
+        <h2 id="players" class="text-center mt-5 mb-4">Top Players</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="cr.jpg" class="card-img-top" alt="Cristiano Ronaldo">
+                    <div class="card-body">
+                        <h5 class="card-title">Cristiano Ronaldo</h5>
+                        <p class="card-text">Arguably the greatest footballer of all time.</p>
+                        <a href="#" class="btn btn-primary">View Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="lm.jpg" class="card-img-top" alt="Lionel Messi">
+                    <div class="card-body">
+                        <h5 class="card-title">Lionel Messi</h5>
+                        <p class="card-text">One of the greatest footballer in history.</p>
+                        <a href="#" class="btn btn-primary">View Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="nj.jpg" class="card-img-top" alt="Neymar Jr">
+                    <div class="card-body">
+                        <h5 class="card-title">Neymar Jr</h5>
+                        <p class="card-text">A dynamic Brazilian football superstar.</p>
+                        <a href="#" class="btn btn-primary">View Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <footer>
+        <p>&copy; 2024 KickZone. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
