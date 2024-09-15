@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Fan Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="form-container">
+    <form id="registrationForm">
+        <h2>Register</h2>
+
+        <div class="form-group">
+            <label for="fullName">Full Name</label>
+            <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+            <span class="error-message" id="nameError"></span>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <span class="error-message" id="emailError"></span>
+        </div>
+
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Create a password" required>
+            <span class="error-message" id="passwordError"></span>
+        </div>
+
+        <div class="form-group">
+            <label for="confirmPassword">Confirm Password</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm your password" required>
+            <span class="error-message" id="confirmPasswordError"></span>
+        </div>
+
+        <div class="form-group">
+            <label for="favoritePlayer">Favorite Player</label>
+            <input type="text" id="favoritePlayer" name="favoritePlayer" placeholder="Enter your favorite player" required>
+        </div>
+
+        <div class="form-group">
+            <label for="favplayer">Favorite Club </label>
+            <select id="favplayer" name="favplayer" required>
+                <option value="">Select your favorite club</option>
+                <option value="Real Madrid">Real Madrid</option>
+                <option value="Manchester United">Manchester United</option>
+                <option value="FC Barcelona">FC Barcelona</option>
+                <option value="Liverpool">Liverpool</option>
+                <option value="Bayern Munich">Bayern Munich</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="favoritePosition">Favorite Position</label>
+            <select id="favoritePosition" name="favoritePosition" required>
+                <option value="">Select your favorite position</option>
+                <option value="Goalkeeper">Goalkeeper</option>
+                <option value="Defender">Defender</option>
+                <option value="Midfielder">Midfielder</option>
+                <option value="Forward">Forward</option>
+            </select>
+        </div>
+
+        <button type="submit" class="btn-submit">Register</button>
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
