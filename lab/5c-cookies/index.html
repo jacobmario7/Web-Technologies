@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Session Handling</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #263159;
+            color: #FFFBEB;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+            background: #495579;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+        }
+        input, button {
+            margin: 10px 0;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        input {
+            width: calc(100% - 22px);
+        }
+        button {
+            background-color: #251749;
+            color: #FFFBEB;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #495579;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Football Fan Login</h1>
+        <form action="FootballServlet" method="post">
+            <input type="text" name="team" placeholder="Enter your favorite team" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

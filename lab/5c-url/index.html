@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Player Ranking</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #263159;
+            color: #FFFBEB;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #FFFBEB;
+        }
+        h2 {
+            font-size: 1.8em;
+            color: #FFB400;
+        }
+        button, input[type="text"], input[type="number"] {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 1em;
+            border: none;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #FFB400;
+            color: #263159;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #FFFBEB;
+            color: #263159;
+        }
+        input[type="text"], input[type="number"] {
+            width: 60%;
+            background-color: #FFFBEB;
+            color: #263159;
+            border: 1px solid #FFB400;
+        }
+        a {
+            text-decoration: none;
+            color: #FFFBEB;
+            font-size: 1.2em;
+        }
+        a:hover {
+            color: #FFB400;
+        }
+    </style>
+</head>
+<body>
+    <h1>Football Player Ranking</h1>
+    <h2>Rate Your Favorite Football Player</h2>
+    <p>Click the button below to start rating players.</p>
+    <form action="FootballPlayerRankingServlet" method="get">
+        <button type="submit">Start Rating</button>
+    </form>
+</body>
+</html>

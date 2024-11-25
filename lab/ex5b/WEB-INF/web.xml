@@ -1,0 +1,10 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.0">
+    <servlet>
+        <servlet-name>CalculatePointsServlet</servlet-name>
+        <servlet-class>CalculatePointsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CalculatePointsServlet</servlet-name>
+        <url-pattern>/CalculatePointsServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
