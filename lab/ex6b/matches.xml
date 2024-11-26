@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<football_matches>
+    <match>
+        <description>Team A vs Team B</description>
+        <date>2024-11-30</date>
+        <time>18:00</time>
+        <location>National Stadium</location>
+    </match>
+    <match>
+        <description>Team C vs Team D</description>
+        <date>2024-12-01</date>
+        <time>20:00</time>
+        <location>City Arena</location>
+    </match>
+    <match>
+        <description>Team E vs Team F</description>
+        <date>2024-12-02</date>
+        <time>16:00</time>
+        <location>Grand Field</location>
+    </match>
+</football_matches>
